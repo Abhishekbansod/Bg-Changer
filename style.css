@@ -1,0 +1,38 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: solid 2.5px black;
+    border-radius: 10px;
+}
+
+#cadetblue{
+    background-color: cadetblue;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#violet{
+    background-color: violet;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.boxContainer{
+    display: flex;
+    gap: 2rem;
+}
+
+body{
+    background-color: rgb(76, 103, 103);
+}
